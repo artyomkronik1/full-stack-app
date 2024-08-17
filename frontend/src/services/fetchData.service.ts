@@ -2,7 +2,7 @@
 import axios, { AxiosResponse } from 'axios';
 
 
-const BASE_URL: string = 'https://full-stack-app-server.vercel.app:3001';
+const BASE_URL: string = 'http://localhost:3001';
 
 const FetchdataService = {
 	async fetchData(urls: string[]) {

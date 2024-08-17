@@ -1,7 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
 import { MetadataModule } from './metadata/metadata.module';
-import { APP_GUARD } from '@nestjs/core';
 
 @Module({
   imports: [
